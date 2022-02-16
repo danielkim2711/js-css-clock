@@ -1,2 +1,3 @@
-# js-css-clock
-A JS and CSS clock
+# JS CSS Clock
+
+https://danielkim2711.github.io/js-css-clock/
