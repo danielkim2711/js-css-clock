@@ -15,6 +15,16 @@ function setDate() {
   const hoursDegrees = (hours / 12) * 360 + 90;
   const hourHand = document.querySelector('.hour-hand');
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+
+  if (seconds === 0) {
+    secondHand.style.transitionDuration = '0s';
+    minuteHand.style.transitionDuration = '0s';
+    hourHand.style.transitionDuration = '0s';
+  } else {
+    secondHand.style.transitionDuration = '0.05s';
+    minuteHand.style.transitionDuration = '0.05s';
+    hourHand.style.transitionDuration = '0.05s';
+  }
 }
 
 setInterval(setDate, 1000);
