@@ -1,3 +1,3 @@
-# JS CSS Clock
+# A JavaScript and CSS clock from JavaScript30 by Wes Bos
 
-https://danielkim2711.github.io/js-css-clock/
+https://www.youtube.com/watch?v=xu87YWbr4X0
